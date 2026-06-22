@@ -224,7 +224,7 @@ if selected == 'Pregnancy Risk Prediction':
     st.markdown("---")
 
     # Load your preprocessing scaler asset safely
-    maternal_model = pickle.load(open("final_maternal_model.sav", "rb"))
+    maternal_model = pickle.load(open("final_maternal_model.pkl", "rb"))
 
 
     # ─── THREE-COLUMN USER INPUTS FOR ALL 11 MANUALLY ENTERED ATTRIBUTES ───
