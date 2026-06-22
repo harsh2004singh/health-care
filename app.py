@@ -5,7 +5,7 @@ import numpy as np
 import requests
 import plotly.express as px
 from io import StringIO
-from codebase.dashboard_graphs import MaternalHealthDashboard
+from dashboard_graphs import MaternalHealthDashboard
 import warnings
 from streamlit_option_menu import option_menu
 
